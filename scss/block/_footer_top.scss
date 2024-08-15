@@ -1,0 +1,44 @@
+.footer_top {
+  padding-top: 91px;
+  padding-bottom: 91px;
+  background-color: $orange;
+}
+
+.footer_top_text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 29px;
+}
+
+.footer_top_button {
+  @include button;
+  display: inline-block;
+  background-color: #fff;
+  color: $orange;
+  box-shadow: 0 15px 15px -10px $orange_shadow1;
+}
+
+.footer_top_button:hover {
+  opacity: 0.5;
+}
+
+.container {
+  text-align: center;
+}
+
+
+@media screen and (min-width:768px){
+    .footer_top_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer_top_text{
+        width: 445px;
+        text-align: start;
+    }
+}

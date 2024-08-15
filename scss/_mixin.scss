@@ -1,0 +1,13 @@
+@mixin button {
+  background-color: $orange;
+  padding: 12px 32px;
+  display: none;
+  font-weight: 700;
+  font-size: 13px;
+  color: $white_text;
+  border: none;
+  border-radius: 22px;
+  box-shadow: 0 15px 15px -10px $orange_shadow;
+  cursor: pointer;
+}
+
